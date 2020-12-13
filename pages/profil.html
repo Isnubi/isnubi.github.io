@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <!--Métadonnées de référencement et d'encodage-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Louis GAMBART">
+    <title>Veille technologique</title> <!--Nom de l'onglet-->
+    <!-- CSS principal -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS secondaire -->
+    <link href="../assets/dist/css/starter-template.css" rel="stylesheet">
+    <!--Changement de l'icone de l'onglet-->
+    <link rel="shortcut icon" href="../album/cv.png" type="image/x-icon">
+</head>
+  
+<body>
+    <div id="filterbanner"></div> <!--Filtre-->
+    <div id="banner"></div> <!--Background-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top"> <!--Menu de navigation-->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bts.html">BTS SIO</a>
+                    </li>
+                    <li class="nav-item dropdown">  
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a> <!--Menu déroulant dans la navigation-->
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="documentation.html">Documentation</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap1.html">AP 1</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap2.html">AP 2</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap3.html">AP 3</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap4.html">AP 4</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap5.html">AP 5</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">  
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Veilles</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="veille.html">Veille technologique</a></li>
+                            <li><a class="dropdown-item" href="veille_juridique.html">Veille juridique</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stage.html">Stages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="row"> <!--Carte dédiée à chaque catégorie-->
+            <div class="col-sm-4">
+                <div class="card p-3 border-dark shadow rounded mb-5"> <!--On rajoute le max-width pour que la carte ne fasse que 25% de l'espace disponible et que l'autre carte puisse prendre 75%-->
+                    <img class="card-img-top" src="https://i.ibb.co/74w3LQ7/cv.png" alt="Photo de profil">
+                    <div class="card-body">
+                       <h5 class="card-title">Louis GAMBART</h5>
+                        <p class="card-text">18 ans<br>
+                            Permis B<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="card shadow p-3 mb-5 border-primary rounded">
+                    <div class="card-body text-grey">
+                        <h5 class="card-title text-center">Diplômes et formations</h5>
+                        <p class="card-text"><strong>BTS Services Informatiques aux Organisations</strong><br> <!--<strong> pour mettre le texte en gras-->
+                        Actuellement en 1ère année de BTS SIO, en option Solutions d'Intrastructures,
+                        Systèmes et Réseaux (SISR), au lycée Turgot à Paris 03.
+                        <em>Examen en 2022.</em></p> <!--<em> pour mettre le texte en italique-->
+
+                        <p class="card-text"><strong>Baccalauréat Sciences et Technologies de l'Industrie et du Développement Durable</strong><br>
+                        Baccaulauréat STI2D, obtenu avec une mention très bien, en option Systèmes d'Informations 
+                        et Numérique, au lycée Gaston Bachelard à Chelles 77500.
+                        <em>De septembre 2018 à juillet 2020.</em></p>
+
+                        <p class="card-text"><strong>Brevet des Collèges</strong><br>
+                        Brevet des Collèges, obtenu avec une mention très bien,
+                        au collège Gérard Philipe à Villeparisis 77270.
+                        <em>En juillet 2017.</em></p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <br>
+        <div class="row"> <!--Carte dédiée à chaque catégorie-->
+            <div class="col-sm-8">
+                <div class="card shadow p-3 mb-5 border-primary rounded">
+                    <div class="card-body text-grey">
+                        <h5 class="card-title text-center">Expériences diverses</h5>
+                        <p class="card-text"><strong>Membre du Conseil de Vie Lycéenne</strong>, <em>depuis octobre 2017.</em><br>
+                        Délégué titulaire au Conseil de Vie Lycéenne au lycée Gaston Bachelard, à Chelles (77500).<br>
+                        Délégué suppléant au Conseil de Vie Lycéenne au lycée Turgot, à Paris (75003).</p>
+    
+                        <p class="card-text"><strong>Arbitre de badminton</strong>, <em>depuis février 2014.</em><br>
+                        Certification nationale d'arbitrage obtenue en mai 2019.</p>
+    
+                        <p class="card-text"><strong>Membre du Conseil Communal d'Enfants</strong>, <em>de septembre 2011 à juillet 2014.</em><br>
+                        Membre titulaire du Conseil Communal d'Enfants à la mairie de Villeparisis (77270),
+                        dans la commission Environnement.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-sm-4">
+                <div class="card p-3 border-dark shadow rounded">
+                    <div class="card-body">
+                        <h5 class="card-title">Atouts</h5>
+                        <p class="card-text">Autonome<br>
+                        Ponctuel<br>
+                        Rigoureux<br>
+                        Sens des relations humaines<br>
+                        Respectueux</p>
+    
+                        <h5 class=card-title">Centres d'intérêts</h5>
+                        <p class="card-text">Informatique<br>
+                        Jeux-vidéos<br>
+                        Astronomie<br>
+                        Badminton<br>
+                        Cyclisme-Tout-Terrain</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="text-center">
+            <a href="../album/documents/GAMBART_CV.pdf" target="_blank" class="btn btn-primary">Télécharger mon CV</a> <!--Bouton permettant d'ouvrir un CV au format PDF dans une nouvelle fenêtre-->
+        </div>
+        <br>
+    </main>
+    <footer> <!--Pied de page-->
+        <a href="https://www.linkedin.com/in/louis-gambart" title="Lien vers mon profil Linkedin" target="_blank">
+            <img alt="Logo LinkedIn" src="https://i.ibb.co/HY5PkLd/linkedin.png" width="16px" height="16px"/>
+        </a>
+        <p>&copy; Louis Gambart | Tous droits réservés<br>
+        <a class ="lien" href="mentions_legales.html">Mentions légales</a></p>
+    </footer>
+        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> <!--Script JS pour le menu déroulant-->
+</body>
+</html>
+
+<!--<div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+  </div>-->

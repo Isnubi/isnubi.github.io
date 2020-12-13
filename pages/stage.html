@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <!--Métadonnées de référencement et d'encodage-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Louis GAMBART">
+    <title>Veille technologique</title> <!--Nom de l'onglet-->
+    <!-- CSS principal -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS secondaire -->
+    <link href="../assets/dist/css/starter-template.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../album/cv.png" type="image/x-icon">
+</head>
+  
+<body>
+    <div id="filterbanner"></div> <!--Filtre-->
+    <div id="banner"></div> <!--Background-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bts.html">BTS SIO</a>
+                    </li>
+                    <li class="nav-item dropdown">  
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="documentation.html">Documentation</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap1.html">AP 1</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap2.html">AP 2</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap3.html">AP 3</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap4.html">AP 4</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap5.html">AP 5</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">  
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Veilles</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="veille.html">Veille technologique</a></li>
+                            <li><a class="dropdown-item" href="veille_juridique.html">Veille juridique</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stage.html">Stages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="card-deck"> <!--Carte dédiée à chaque entreprise-->
+            <div class="card shadow p-3 mb-5 border-warning rounded"> <!--Bordure jaune = entreprise à contacter-->
+                <div class="card-header">
+                    <img class="card-img-top" src="https://i.ibb.co/55gVY5Q/thales-logo.jpg" alt="Thales">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Thales SIX GTS SAS</h5>
+                    <p class="card-text">Candidature à envoyer.</p>
+                </div>
+            </div>
+            <div class="card shadow p-3 mb-5 border-warning rounded"> <!--Bordure jaune = entreprise à contacter-->
+                <div class="card-header">
+                    <img class="card-img-top" src="https://i.ibb.co/cYVDyxN/engie-logo.png" alt="Engie Solutions">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Engie Solutions</h5>
+                    <p class="card-text">Candidature à envoyer.</p>
+                </div>
+            </div>
+            <div class="card shadow p-3 mb-5 border-info rounded"> <!--Bordure bleue claire = entreprise contactée-->
+                <div class="card-header">
+                    <img class="card-img-top" src="https://i.ibb.co/ZzcnGJP/cig-logo.png" alt="CIG Petite Couronne">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">CIG de la Petite Couronne parisienne</h5>
+                    <p class="card-text">Candidature en attente.</p>
+                </div>
+            </div>
+            <!--
+            <div class="card text-grey shadow p-3 mb-5 border-danger rounded"> <!--Bordure rouge = candidature refusée
+                <img class="card-img-top" src="https://i.ibb.co/s6drQY5/fictif-logo.jpg" alt="Entreprise fictive">
+                <div class="card-body">
+                    <h5 class="card-title">Entreprise X</h5>
+                    <p class="card-text">Candidature refusée</p>
+                </div>
+            </div>
+            <div class="card text-grey shadow p-3 mb-5 border-success rounded"> <!--Bordure verte = candidature acceptée
+                <img class="card-img-top" src="https://i.ibb.co/s6drQY5/fictif-logo.jpg" alt="Entreprise fictive">
+                <div class="card-body">
+                    <h5 class="card-title">Entreprise X</h5>
+                    <p class="card-text">Candidature acceptée</p>
+                </div>
+            </div>
+            -->
+        </div>
+
+        <div class="card-deck"> <!--Carte dédiée à chaque stage effectué-->
+            <div class="card text-grey shadow p-3 mb-5 border-primary rounded"> <!--Bordure bleue foncée = stage effectué-->
+                <img class="card-img-top" src="https://i.ibb.co/k65MnyT/villeparisis-logo.png" alt="Entreprise fictive">
+                <div class="card-body">
+                    <h5 class="card-title">Mairie de Villeparisis</h5>
+                    <p class="card-text">Stage effectué du 27/05/2017 au 31/07/2017.</p>
+                    <div class="text-center">
+                        <a href="stages/stage_3eme.html" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div class="card text-grey shadow p-3 mb-5 border-primary rounded">
+                <img class="card-img-top" src="https://i.ibb.co/s6drQY5/fictif-logo.jpg" alt="Entreprise fictive">
+                <div class="card-body">
+                    <h5 class="card-title">Entreprise X</h5>
+                    <p class="card-text">Stage effectué du xx/xx/xxxx au xx/xx/xxxx.</p>
+                    <div class="text-center">
+                        <a href="stages/stage2.html" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-grey shadow p-3 mb-5 border-primary rounded">
+                <img class="card-img-top" src="https://i.ibb.co/s6drQY5/fictif-logo.jpg" alt="Entreprise fictive">
+                <div class="card-body">
+                    <h5 class="card-title">Entreprise X</h5>
+                    <p class="card-text">Stage effectué du xx/xx/xxxx au xx/xx/xxxx.</p>
+                    <div class="text-center">
+                        <a href="stages/stage3.html" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            -->
+        </div>
+    </main>
+    <footer> <!--Pied de page-->
+        <a href="https://www.linkedin.com/in/louis-gambart" title="Lien vers mon profil Linkedin" target="_blank">
+            <img alt="Logo LinkedIn" src="https://i.ibb.co/HY5PkLd/linkedin.png" width="16px" height="16px"/>
+        </a>
+        <p>&copy; Louis Gambart | Tous droits réservés<br>
+        <a class ="lien" href="mentions_legales.html">Mentions légales</a></p>
+    </footer>
+        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> <!--Script JS pour le menu déroulant-->
+</body>
+</html>

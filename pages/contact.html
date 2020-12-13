@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Louis GAMBART">
+    <title>Contact</title>   
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../assets/dist/css/starter-template.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../album/cv.png" type="image/x-icon">
+</head>
+  
+<body>
+    <div id="filterbanner"></div> <!--Filtre-->
+    <div id="banner"></div> <!--Background-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bts.html">BTS SIO</a>
+                    </li>
+                    <li class="nav-item dropdown">  
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="documentation.html">Documentation</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap1.html">AP 1</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap2.html">AP 2</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap3.html">AP 3</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap4.html">AP 4</a></li>
+                            <li><a class="dropdown-item" href="documentation/ap5.html">AP 5</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">  
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Veilles</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="veille.html">Veille technologique</a></li>
+                            <li><a class="dropdown-item" href="veille_juridique.html">Veille juridique</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stage.html">Stages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="card shadow p-3 mb-5 border-primary rounded">
+            <div class="card-body text-grey text-center">
+                <form id="contact" method="post" action="encours.html">
+					<fieldset><legend>Vos coordonnées</legend>
+						<div class="input-group mb-3 shadow">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="basic-addon1">Votre nom</span>
+							</div>
+							<label for="nom"></label><input type="text" id="nom" name="nom" class="form-control"/>
+						</div>
+						<div class="input-group mb-3 shadow">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="basic-addon1">Votre email</span>
+							</div>
+							<label for="email"></label><input type="text" id="email" name="email" class="form-control"/>
+						</div>
+					</fieldset>
+				 
+					<fieldset><legend>Votre message :</legend>
+						<div class="input-group mb-3 shadow">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="basic-addon1">Objet du message</span>
+							</div>
+							<label for="objet"></label></label><input type="text" id="objet" name="objet" class="form-control"/>
+						</div>
+						<div class="input-group mb-3 ">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="basic-addon1">Votre message</span>
+							</div>
+							<label for="message"></label></label><textarea type="text" id="message" name="message" class="form-control" cols="30" rows="8"></textarea>
+						</div>
+					</fieldset>
+					<div class="text-grey text-center"><input type="submit" name="envoi" value="Envoyer votre message !" class="btn btn-primary" /></div>
+				</form>
+			</div>
+        </div>
+        <br>
+    </main>
+    <footer> <!--Pied de page-->
+        <a href="https://www.linkedin.com/in/louis-gambart" title="Lien vers mon profil Linkedin" target="_blank">
+            <img alt="Logo LinkedIn" src="https://i.ibb.co/HY5PkLd/linkedin.png" width="16px" height="16px"/>
+        </a>
+        <p>&copy; Louis Gambart | Tous droits réservés<br>
+        <a class ="lien" href="mentions_legales.html">Mentions légales</a></p>
+    </footer>
+        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
